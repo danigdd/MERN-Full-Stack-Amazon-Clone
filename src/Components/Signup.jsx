@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
-function Login() {
+function Signup() {
   const navigate = useNavigate();
   return (
     <Container>
@@ -10,7 +10,11 @@ function Login() {
         <img src="./amazon-logo.png"></img>
       </Logo>
       <FormContainer>
-        <h3>Sign in to an account</h3>
+        <h3>Sign up to Amazon</h3>
+        <InputContainer>
+          <p>Full Name</p>
+          <input type="text" placeholder="John Doe"></input>
+        </InputContainer>
         <InputContainer>
           <p>Email</p>
           <input type="email" placeholder="example@example.com"></input>
@@ -19,20 +23,18 @@ function Login() {
           <p>Password</p>
           <input type="password" placeholder="******"></input>
         </InputContainer>
-        <LoginButton>Login</LoginButton>
+        <SignUpButton>Sign up</SignUpButton>
         <InfoText>
-          By continuing with the login, you agree to Amazon's{" "}
+          By continuing with the creation of the account, you agree to Amazon's{" "}
           <span>Conditions of Use</span> and <span>Privacy Notice</span>.
         </InfoText>
         <InfoText>
           <span id="need_help">Need help?</span>
         </InfoText>
-        <FormSeparator></FormSeparator>
-        <InfoText>New customer?</InfoText>
-        <SignUpButton onClick={() => navigate("/signup")}>
-          Create Account
-        </SignUpButton>
       </FormContainer>
+      <BackToLogin onClick={() => navigate("/login")}>
+        Back to Login
+      </BackToLogin>
     </Container>
   );
 }
@@ -60,7 +62,7 @@ const Logo = styled.div`
 const FormContainer = styled.form`
   border: 1px solid lightgray;
   width: 55%;
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +102,24 @@ const InputContainer = styled.div`
   }
 `;
 
-const LoginButton = styled.button`
+const SignUpButton = styled.button`
+  width: 70%;
+  height: 30px;
+  background-color: #ffce12;
+  color: #464848;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 30px;
+
+  &:hover {
+    background-color: #e7bc11;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+`;
+
+const BackToLogin = styled.button`
   width: 70%;
   height: 30px;
   background-color: #ffce12;
@@ -134,27 +153,4 @@ const InfoText = styled.p`
   }
 `;
 
-const FormSeparator = styled.hr`
-  border: none;
-  height: 2px;
-  background: lightgrey;
-  width: 100%;
-`;
-
-const SignUpButton = styled.button`
-  width: 70%;
-  height: 30px;
-  background-color: #ffce12;
-  color: #464848;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  margin-top: 5px;
-
-  &:hover {
-    background-color: #e7bc11;
-    transition: 0.3s;
-    cursor: pointer;
-  }
-`;
-export default Login;
+export default Signup;
