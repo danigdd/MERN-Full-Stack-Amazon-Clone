@@ -168,6 +168,19 @@ function Home() {
             <a href="/">View products</a>
           </ProductCard>
         </ProductsWrapper>
+        {/* PRODUCTS ROW */}
+        <HorizontalSection>
+          <SectionTitle>Amazon choice</SectionTitle>
+
+          <HorizontalProducts>
+            <HorizontalProduct />
+            <HorizontalProduct />
+            <HorizontalProduct />
+            <HorizontalProduct />
+            <HorizontalProduct />
+            <HorizontalProduct />
+          </HorizontalProducts>
+        </HorizontalSection>
       </Header>
     </Page>
   );
@@ -422,6 +435,36 @@ const ProductPlaceholder = styled.div`
 const BigProductPlaceholder = styled.div`
   width: 100%;
   height: 300px;
+  background: #e3e6e6;
+`;
+
+/* HORIZONTAL */
+
+const HorizontalSection = styled.section`
+  max-width: 1500px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  padding-left: 30px;
+  background: white;
+`;
+
+const SectionTitle = styled.h2`
+  margin-bottom: 20px;
+`;
+
+const HorizontalProducts = styled.div`
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+`;
+
+const HorizontalProduct = styled.div`
+  min-width: 220px;
+  height: 220px;
   background: #e3e6e6;
 `;
 
