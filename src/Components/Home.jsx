@@ -79,22 +79,42 @@ function Home() {
 
           <ProductGrid>
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Laptops</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Gaming</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1511376777868-611b54f68947?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Accessories</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Screens</span>
             </MiniProduct>
           </ProductGrid>
@@ -108,22 +128,42 @@ function Home() {
 
           <ProductGrid>
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Kitchen</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Decor</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>W.C.</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Bedroom</span>
             </MiniProduct>
           </ProductGrid>
@@ -137,22 +177,42 @@ function Home() {
 
           <ProductGrid>
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Man</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Woman</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Gym wear</span>
             </MiniProduct>
 
             <MiniProduct>
-              <ProductPlaceholder />
+              <ProductPlaceholder
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop')",
+                }}
+              />
               <span>Watches</span>
             </MiniProduct>
           </ProductGrid>
@@ -164,31 +224,109 @@ function Home() {
         <ProductCard>
           <h2>Top sales</h2>
 
-          <BigProductPlaceholder />
+          <BigProductPlaceholder
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
 
           <a href="/">View products</a>
         </ProductCard>
       </ProductsWrapper>
+
       {/* PRODUCTS ROW */}
       <HorizontalSection>
         <SectionTitle>Amazon choice</SectionTitle>
 
         <HorizontalProducts>
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
-          <HorizontalProduct />
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1585386959984-a4155224a1ad?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
+
+          <HorizontalProduct
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=800&auto=format&fit=crop')",
+            }}
+          />
         </HorizontalProducts>
       </HorizontalSection>
-
       {/* FOOTER */}
       <Footer>
         <BackToTop>Back to top</BackToTop>
@@ -475,7 +613,9 @@ const MiniProduct = styled.div`
 const ProductPlaceholder = styled.div`
   width: 100%;
   height: 120px;
-  background: #e3e6e6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 `;
 
 const BigProductPlaceholder = styled.div`
@@ -512,6 +652,9 @@ const HorizontalProduct = styled.div`
   min-width: 220px;
   height: 220px;
   background: #e3e6e6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 `;
 
 /* FOOTER */
