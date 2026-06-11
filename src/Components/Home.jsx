@@ -109,10 +109,7 @@ const LocationContainer = styled.div`
   display: flex;
   flex-direction: column;
   cursor: pointer;
-
-  @media (max-width: 900px) {
-    display: none;
-  }
+  width: 50px;
 `;
 
 const SmallText = styled.span`
@@ -127,6 +124,7 @@ const BoldText = styled.span`
 
 const SearchContainer = styled.div`
   flex: 1;
+  min-width: 200px;
   display: flex;
   height: 40px;
   border-radius: 4px;
@@ -148,6 +146,7 @@ const SearchSelect = styled.select`
 
 const SearchInput = styled.input`
   flex: 1;
+  min-width: 0;
   border: none;
   padding: 0 15px;
   font-size: 15px;
@@ -170,10 +169,7 @@ const HeaderNav = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
-
-  @media (max-width: 900px) {
-    display: none;
-  }
+  flex-shrink: 0;
 `;
 
 const NavItem = styled.div`
