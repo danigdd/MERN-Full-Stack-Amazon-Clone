@@ -64,6 +64,110 @@ function Home() {
             <span>Electronics</span>
           </MenuLinks>
         </BottomHeader>
+
+        {/* HERO */}
+        <HeroSection>
+          <HeroOverlay />
+        </HeroSection>
+
+        {/* PRODUCTS */}
+        <ProductsWrapper>
+          {/* CARD */}
+          <ProductCard>
+            <h2>Electronics</h2>
+
+            <ProductGrid>
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Laptops</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Gaming</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Accessories</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Screens</span>
+              </MiniProduct>
+            </ProductGrid>
+
+            <a href="/">See more</a>
+          </ProductCard>
+
+          {/* CARD */}
+          <ProductCard>
+            <h2>Home & Kitchen tools</h2>
+
+            <ProductGrid>
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Kitchen</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Decor</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>W.C.</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Bedroom</span>
+              </MiniProduct>
+            </ProductGrid>
+
+            <a href="/">See more</a>
+          </ProductCard>
+
+          {/* CARD */}
+          <ProductCard>
+            <h2>Fashion</h2>
+
+            <ProductGrid>
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Man</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Woman</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Gym wear</span>
+              </MiniProduct>
+
+              <MiniProduct>
+                <ProductPlaceholder />
+                <span>Watches</span>
+              </MiniProduct>
+            </ProductGrid>
+
+            <a href="/">Explore</a>
+          </ProductCard>
+
+          {/* CARD */}
+          <ProductCard>
+            <h2>Top sales</h2>
+
+            <BigProductPlaceholder />
+
+            <a href="/">View products</a>
+          </ProductCard>
+        </ProductsWrapper>
       </Header>
     </Page>
   );
@@ -82,6 +186,7 @@ const Header = styled.header`
   position: sticky;
   top: 0;
   z-index: 500;
+  overflow: hidden;
 `;
 
 const TopHeader = styled.div`
@@ -224,6 +329,100 @@ const MenuLinks = styled.div`
     white-space: nowrap;
     font-size: 14px;
   }
+`;
+
+/* HERO */
+
+const HeroSection = styled.section`
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #eaeded 90%);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c");
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+  }
+`;
+
+const HeroOverlay = styled.div`
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #eaeded);
+`;
+
+/* PRODUCTS */
+
+const ProductsWrapper = styled.div`
+  max-width: 1500px;
+  margin: -140px auto 0 auto;
+  padding: 0 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  position: relative;
+  z-index: 10;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+const ProductCard = styled.div`
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 420px;
+
+  h2 {
+    font-size: 21px;
+  }
+
+  a {
+    margin-top: auto;
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+  }
+`;
+
+const ProductGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+`;
+
+const MiniProduct = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  span {
+    font-size: 12px;
+  }
+`;
+
+const ProductPlaceholder = styled.div`
+  width: 100%;
+  height: 120px;
+  background: #e3e6e6;
+`;
+
+const BigProductPlaceholder = styled.div`
+  width: 100%;
+  height: 300px;
+  background: #e3e6e6;
 `;
 
 export default Home;
