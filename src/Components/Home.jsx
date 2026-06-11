@@ -180,40 +180,46 @@ function Home() {
           <HorizontalProduct />
           <HorizontalProduct />
           <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
         </HorizontalProducts>
       </HorizontalSection>
 
       {/* FOOTER */}
       <Footer>
-        <BackToTop>Volver arriba</BackToTop>
+        <BackToTop>Back to top</BackToTop>
 
         <FooterContent>
           <FooterColumn>
-            <h4>Conócenos</h4>
-            <span>Trabaja con nosotros</span>
-            <span>Sobre nosotros</span>
-            <span>Sostenibilidad</span>
+            <h4>Meet us</h4>
+            <span>Work with Amazon</span>
+            <span>About us</span>
+            <span>Amazon in 2026</span>
           </FooterColumn>
 
           <FooterColumn>
-            <h4>Gana dinero con nosotros</h4>
-            <span>Vende en Amazon</span>
-            <span>Afiliados</span>
-            <span>Publicidad</span>
+            <h4>Earn money with us</h4>
+            <span>Sell on Amazon</span>
+            <span>Afiliates program</span>
+            <span>Advertising</span>
           </FooterColumn>
 
           <FooterColumn>
-            <h4>Métodos de pago</h4>
-            <span>Tarjetas</span>
-            <span>Financiación</span>
-            <span>Cheques regalo</span>
+            <h4>Payment methods</h4>
+            <span>Credit and Debit Cards</span>
+            <span>Pay in installments</span>
+            <span>Gift cards</span>
           </FooterColumn>
 
           <FooterColumn>
-            <h4>Ayuda</h4>
-            <span>Atención al cliente</span>
-            <span>Envíos</span>
-            <span>Devoluciones</span>
+            <h4>Help</h4>
+            <span>Customer support</span>
+            <span>Orders</span>
+            <span>Returns</span>
           </FooterColumn>
         </FooterContent>
 
@@ -350,7 +356,7 @@ const CartContainer = styled.div`
 const BottomHeader = styled.div`
   background: #232f3e;
   color: white;
-  height: 40px;
+  height: 30px;
   display: flex;
   align-items: center;
   padding: 0 20px;
