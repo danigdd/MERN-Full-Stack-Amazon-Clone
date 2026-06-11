@@ -64,124 +64,163 @@ function Home() {
             <span>Electronics</span>
           </MenuLinks>
         </BottomHeader>
-
-        {/* HERO */}
-        <HeroSection>
-          <HeroOverlay />
-        </HeroSection>
-
-        {/* PRODUCTS */}
-        <ProductsWrapper>
-          {/* CARD */}
-          <ProductCard>
-            <h2>Electronics</h2>
-
-            <ProductGrid>
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Laptops</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Gaming</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Accessories</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Screens</span>
-              </MiniProduct>
-            </ProductGrid>
-
-            <a href="/">See more</a>
-          </ProductCard>
-
-          {/* CARD */}
-          <ProductCard>
-            <h2>Home & Kitchen tools</h2>
-
-            <ProductGrid>
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Kitchen</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Decor</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>W.C.</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Bedroom</span>
-              </MiniProduct>
-            </ProductGrid>
-
-            <a href="/">See more</a>
-          </ProductCard>
-
-          {/* CARD */}
-          <ProductCard>
-            <h2>Fashion</h2>
-
-            <ProductGrid>
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Man</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Woman</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Gym wear</span>
-              </MiniProduct>
-
-              <MiniProduct>
-                <ProductPlaceholder />
-                <span>Watches</span>
-              </MiniProduct>
-            </ProductGrid>
-
-            <a href="/">Explore</a>
-          </ProductCard>
-
-          {/* CARD */}
-          <ProductCard>
-            <h2>Top sales</h2>
-
-            <BigProductPlaceholder />
-
-            <a href="/">View products</a>
-          </ProductCard>
-        </ProductsWrapper>
-        {/* PRODUCTS ROW */}
-        <HorizontalSection>
-          <SectionTitle>Amazon choice</SectionTitle>
-
-          <HorizontalProducts>
-            <HorizontalProduct />
-            <HorizontalProduct />
-            <HorizontalProduct />
-            <HorizontalProduct />
-            <HorizontalProduct />
-            <HorizontalProduct />
-          </HorizontalProducts>
-        </HorizontalSection>
       </Header>
+
+      {/* HERO */}
+      <HeroSection>
+        <HeroOverlay />
+      </HeroSection>
+
+      {/* PRODUCTS */}
+      <ProductsWrapper>
+        {/* CARD */}
+        <ProductCard>
+          <h2>Electronics</h2>
+
+          <ProductGrid>
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Laptops</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Gaming</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Accessories</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Screens</span>
+            </MiniProduct>
+          </ProductGrid>
+
+          <a href="/">See more</a>
+        </ProductCard>
+
+        {/* CARD */}
+        <ProductCard>
+          <h2>Home & Kitchen tools</h2>
+
+          <ProductGrid>
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Kitchen</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Decor</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>W.C.</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Bedroom</span>
+            </MiniProduct>
+          </ProductGrid>
+
+          <a href="/">See more</a>
+        </ProductCard>
+
+        {/* CARD */}
+        <ProductCard>
+          <h2>Fashion</h2>
+
+          <ProductGrid>
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Man</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Woman</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Gym wear</span>
+            </MiniProduct>
+
+            <MiniProduct>
+              <ProductPlaceholder />
+              <span>Watches</span>
+            </MiniProduct>
+          </ProductGrid>
+
+          <a href="/">Explore</a>
+        </ProductCard>
+
+        {/* CARD */}
+        <ProductCard>
+          <h2>Top sales</h2>
+
+          <BigProductPlaceholder />
+
+          <a href="/">View products</a>
+        </ProductCard>
+      </ProductsWrapper>
+      {/* PRODUCTS ROW */}
+      <HorizontalSection>
+        <SectionTitle>Amazon choice</SectionTitle>
+
+        <HorizontalProducts>
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+          <HorizontalProduct />
+        </HorizontalProducts>
+      </HorizontalSection>
+
+      {/* FOOTER */}
+      <Footer>
+        <BackToTop>Volver arriba</BackToTop>
+
+        <FooterContent>
+          <FooterColumn>
+            <h4>Conócenos</h4>
+            <span>Trabaja con nosotros</span>
+            <span>Sobre nosotros</span>
+            <span>Sostenibilidad</span>
+          </FooterColumn>
+
+          <FooterColumn>
+            <h4>Gana dinero con nosotros</h4>
+            <span>Vende en Amazon</span>
+            <span>Afiliados</span>
+            <span>Publicidad</span>
+          </FooterColumn>
+
+          <FooterColumn>
+            <h4>Métodos de pago</h4>
+            <span>Tarjetas</span>
+            <span>Financiación</span>
+            <span>Cheques regalo</span>
+          </FooterColumn>
+
+          <FooterColumn>
+            <h4>Ayuda</h4>
+            <span>Atención al cliente</span>
+            <span>Envíos</span>
+            <span>Devoluciones</span>
+          </FooterColumn>
+        </FooterContent>
+
+        <FooterBottom>
+          <img src="./amazon-logo-white.png" alt="Amazon Logo" />
+        </FooterBottom>
+      </Footer>
     </Page>
   );
 }
@@ -352,6 +391,7 @@ const HeroSection = styled.section`
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #eaeded 90%);
   position: relative;
 
+  isolation: isolate;
   &::before {
     content: "";
     position: absolute;
@@ -455,7 +495,7 @@ const SectionTitle = styled.h2`
 const HorizontalProducts = styled.div`
   display: flex;
   gap: 20px;
-  overflow: auto;
+  overflow-x: auto;
 
   &::-webkit-scrollbar {
     height: 6px;
@@ -466,6 +506,61 @@ const HorizontalProduct = styled.div`
   min-width: 220px;
   height: 220px;
   background: #e3e6e6;
+`;
+
+/* FOOTER */
+
+const Footer = styled.footer`
+  margin-top: 40px;
+`;
+
+const BackToTop = styled.div`
+  background: #37475a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 13px;
+`;
+
+const FooterContent = styled.div`
+  background: #232f3e;
+  color: white;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+`;
+
+const FooterColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  span {
+    color: #dddddd;
+    font-size: 14px;
+    cursor: pointer;
+  }
+`;
+
+const FooterBottom = styled.div`
+  background: #131a22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  img {
+    width: 100px;
+    object-fit: contain;
+  }
 `;
 
 export default Home;
